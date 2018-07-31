@@ -245,6 +245,8 @@ img{
     padding:1.25vh;
 }
 
+
+
 /*FIFTH*/
 
 .elites, .sponsor {
@@ -273,7 +275,6 @@ img{
     cursor:pointer;
     text-align:center;
 }
-
 
 .btn:hover {
     opacity:0.75;
@@ -510,6 +511,7 @@ footer {
         font-size:1.414rem;
     }
 
+
     .menu a:nth-child(5), .menu a:nth-child(4), .menu a:nth-child(3) {
         display:none;
     }
@@ -522,8 +524,11 @@ footer {
         width:50%;
     }
 
-    .menu a:nth-child(5), .menu a:nth-child(4), .menu a:nth-child(3) {
-        display:none;
+    .logo-bar-block img {
+        width:75%;
     }
 
+    .logo-block img {
+        width:50%;
+    }
 }
