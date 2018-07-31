@@ -42,6 +42,7 @@ small {
     list-style-type: none;
     padding: 1em;
     text-transform: uppercase;
+    min-width:7.5rem;
   }
   
   li span {
@@ -135,12 +136,16 @@ input {
 }
 
 input[type="submit"] {
-    
+    background-color:rgba(153, 204, 51,1);
     color:rgba(255,255,255,0.75);
     padding:0.5rem 1rem;
     margin:0.5rem 0;
     cursor:pointer;
     border:none;
+}
+
+input[type="submit"]:hover {
+    background-color:rgba(153, 204, 51, 0.8);
 }
 
 textarea {
@@ -236,8 +241,10 @@ img{
     color:rgba(0,0,0,0.75);
     border-radius:50%;
     justify-self:end;
-    padding:2.5vh;
+    padding:1.25vh;
 }
+
+
 
 /*FIFTH*/
 
@@ -266,6 +273,10 @@ img{
     border:0;
     cursor:pointer;
     text-align:center;
+}
+
+.btn:hover {
+    opacity:0.75;
 }
 
 .sponsor-content .btn, .events-container .btn {
@@ -474,6 +485,14 @@ footer {
         grid-column:span 12;
     }
 
+    * {
+        text-align:center;
+    }
+
+    .divider {
+        margin:0 auto;
+    }
+
     .time-table-head .description {
         grid-column:span 9;
     }
@@ -486,7 +505,19 @@ footer {
         padding:0;
     }
 
+    h3 {
+        font-size:1.414rem;
+    }
+
     .menu a:nth-child(5), .menu a:nth-child(4), .menu a:nth-child(3) {
         display:none;
+    }
+
+    .logo-bar-block img {
+        width:75%;
+    }
+
+    .logo-block img {
+        width:50%;
     }
 }
