@@ -136,6 +136,7 @@ input {
 }
 
 input[type="submit"] {
+
     background-color:rgba(153, 204, 51,1);
     color:rgba(255,255,255,0.75);
     padding:0.5rem 1rem;
@@ -485,6 +486,7 @@ footer {
         grid-column:span 12;
     }
 
+
     * {
         text-align:center;
     }
@@ -509,8 +511,17 @@ footer {
         font-size:1.414rem;
     }
 
+
     .menu a:nth-child(5), .menu a:nth-child(4), .menu a:nth-child(3) {
         display:none;
+    }
+
+    .logo-bar-block img {
+        width:75%;
+    }
+
+    .logo-block img {
+        width:50%;
     }
 
     .logo-bar-block img {
