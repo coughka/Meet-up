@@ -136,6 +136,7 @@ input {
 }
 
 input[type="submit"] {
+
     background-color:rgba(153, 204, 51,1);
     color:rgba(255,255,255,0.75);
     padding:0.5rem 1rem;
@@ -244,8 +245,6 @@ img{
     padding:1.25vh;
 }
 
-
-
 /*FIFTH*/
 
 .elites, .sponsor {
@@ -274,6 +273,7 @@ img{
     cursor:pointer;
     text-align:center;
 }
+
 
 .btn:hover {
     opacity:0.75;
@@ -485,6 +485,7 @@ footer {
         grid-column:span 12;
     }
 
+
     * {
         text-align:center;
     }
@@ -520,4 +521,9 @@ footer {
     .logo-block img {
         width:50%;
     }
+
+    .menu a:nth-child(5), .menu a:nth-child(4), .menu a:nth-child(3) {
+        display:none;
+    }
+
 }
